@@ -76,6 +76,9 @@ text-decoration: none;
 background: #4aaaa5;
 display: block;
 }
+#logo:hover{
+  background-color: #3b8bb3;
+}
 
 nav {
   margin-top: 25px;
@@ -92,6 +95,10 @@ nav a {
   text-decoration: none;
   border-left: 1px solid #efefef;
   text-align: center;
+}
+nav a:hover{
+  background-color: #3b8bb3;
+  color: #eee;
 }
 
 nav a:first-child {
