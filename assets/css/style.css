@@ -178,7 +178,7 @@ h3, h2 {
 
 .auth-image {
   height: auto;
-  width: 580px;
+  width: 100%;
   margin-top: 10px;
 }
 
@@ -273,7 +273,9 @@ input[type=submit] {
 
   .auth-image {
     float: left;
-    width: 100%;
+    
+    width: auto;
+    max-width: 400px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
@@ -288,6 +290,7 @@ input[type=submit] {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
+    margin-left: 60px;
     clear: both;
   }
 
@@ -322,6 +325,8 @@ input[type=submit] {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+  
 
 }
 
@@ -377,16 +382,14 @@ input[type=submit] {
 
   .auth-image {
     float: left;
-    width: 200px;
+    max-width: 500px;
+    width: auto;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
   }
 
-  #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-  }
+
 
   #main-container {
     padding-top: 130px;
